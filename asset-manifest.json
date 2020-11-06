@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/hpacker1.github.io/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/hpacker1.github.io/static/js/main.b6626d38.chunk.js",
+    "main.js.map": "/hpacker1.github.io/static/js/main.b6626d38.chunk.js.map",
+    "runtime-main.js": "/hpacker1.github.io/static/js/runtime-main.f22a77b3.js",
+    "runtime-main.js.map": "/hpacker1.github.io/static/js/runtime-main.f22a77b3.js.map",
+    "static/js/2.a2986fe9.chunk.js": "/hpacker1.github.io/static/js/2.a2986fe9.chunk.js",
+    "static/js/2.a2986fe9.chunk.js.map": "/hpacker1.github.io/static/js/2.a2986fe9.chunk.js.map",
+    "static/js/3.d86781ba.chunk.js": "/hpacker1.github.io/static/js/3.d86781ba.chunk.js",
+    "static/js/3.d86781ba.chunk.js.map": "/hpacker1.github.io/static/js/3.d86781ba.chunk.js.map",
+    "index.html": "/hpacker1.github.io/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/hpacker1.github.io/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.a2986fe9.chunk.js.LICENSE.txt": "/hpacker1.github.io/static/js/2.a2986fe9.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/hpacker1.github.io/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f22a77b3.js",
+    "static/js/2.a2986fe9.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.b6626d38.chunk.js"
+  ]
+}
