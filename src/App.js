@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+
 import "./App.css";
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl'
 import Main from './Components/MainRoute';
@@ -9,16 +9,18 @@ function App() {
     <div className="App">
       <div className="demo-big-content">
         <Layout>
-          <Header className = "header-color" title="Title" scroll>
+          <Header className = "header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to='/'>My Portfolio</Link>} waterfall>
             <Navigation>
               <Link to="/">Home</Link>
               <Link to="/resume">Resume</Link>
+              <Link to="/aboutme">About Me</Link>
             </Navigation>
           </Header>
-          <Drawer title="Title">
+          <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to='/'>My Portfolio</Link>}>
             <Navigation>
               <Link to="/">Home</Link>
               <Link to="/resume">Resume</Link>
+              <Link to="/resume">About Me</Link>
             </Navigation>
           </Drawer>
           <Content>

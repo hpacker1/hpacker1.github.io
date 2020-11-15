@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import ShortResume from './ShortResume';
 
 class LandingPage extends Component {
     render() {
         return (
-            <div style= {{width: '100%', margin: 'auto'}}>
+            <div className = "background" style= {{width: '100%', margin: 'auto'}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img
@@ -13,9 +14,9 @@ class LandingPage extends Component {
                             className = "avatar-img"
                         />
                         <div className = "banner-text">
-                            <h1>Full Stack Web Developer</h1>
+                            <h1>Software Engineer</h1>
                         <hr/>
-                        <p>HTML | React | Bootstrap | JavaScript | NodeJS</p>
+                        <p>Hello! My name is Harrison and this is my website which I made to share my resume and some of my projects.</p>
                         <div className="social-links">
                             <a href="http://google.com" target="_blank" rel = "noopener noreferrer">
                                 <i className="fa fa-linkedin-square"  aria-hidden="true" />
@@ -29,11 +30,12 @@ class LandingPage extends Component {
                             <a href="http://google.com" target="_blank" rel = "noopener noreferrer">
                                 <i className="fa fa-youtube-square"  aria-hidden="true" />
                             </a>
-                        </div>
-
+                            </div>
+                        
                         </div>
                     </Cell>
                 </Grid>
+        <ShortResume/>
             </div>
         )
     }
