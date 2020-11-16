@@ -43,21 +43,21 @@
   color: white;
 }
 .banner-text h2 {
-
   font-weight: bold;
   color: white;
 }
 .banner-text h3 {
-
   font-weight: bold;
   color: white;
 }
 .banner-text h4 {
-
   font-weight: bold;
   color: white;
 }
-
+.banner-text h5 {
+  font-weight: bold;
+  color: white;
+}
 
 .banner-text hr {
   border-top: 5px dotted white;
@@ -68,7 +68,9 @@
 .banner-text p {
   color: white;
   font-size: 20px;
-  padding: 1em;
+  padding: 5px;
+  width: 70%;
+  margin: auto;
 }
 .social-links {
   display: flex;
@@ -91,10 +93,34 @@
 
 /* Short Resume Page */
 .resume-images {
-  height: 250px;
-  width: 250px;
-  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  border-radius: 60%;
   border-style: solid;
   border-color: white;
+  border-width: 5px;
   background-color: white;
+}
+
+.resume-images-light {
+  height: 200px;
+  width: 200px;
+  border-radius: 60%;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  background-color: white;
+}
+
+.subTitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  padding: 15px;
+}
+
+.date {
+  font-size: 18px;
+  color: grey;
+  padding-bottom: 15px;
 }
