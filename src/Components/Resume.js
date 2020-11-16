@@ -5,7 +5,10 @@ class Resume extends Component {
     render() {
         return (
             <div>
-                <h1>Resume Page</h1>
+                <h1>Projects</h1>
+                <p>
+                    This is a test project, but stay tuned more projects coming soon!
+                </p>
                 <iframe title="test1" src="https://gotm.io/hpacker1/testgame?forceFullscreen=true" width="1000px" height="1000px"></iframe>
 
 

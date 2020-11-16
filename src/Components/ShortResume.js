@@ -14,7 +14,8 @@ class ShortResume extends Component {
           <div className="banner-text">
             <br />
             <h3>Here are some places I've worked.</h3>
-
+            <br />
+            <br />
             <img className="resume-images" src={ibmlogo} alt="ibm" />
             <div className="subTitle">IBM Research</div>
             <div className="date">Aug '20 - Present</div>
@@ -78,13 +79,26 @@ class ShortResume extends Component {
                 </p>
               </Cell>
             </Grid>
-
+            <br />
+            <br />
+            <br />
+            <br />
             <hr />
-            <h3>School</h3>
+            <br />
+            <br />
+            <h2>School</h2>
             <p>
               I graduated from the University of Massachusetts Amherst with a
-              Bachelors of Science in Computer Science
+              Bachelors of Science in Computer Science in 2018
             </p>
+            <br />
+            <br />
+            <p>
+              My favorite courses in School were always about Robotics and
+              Algorithms
+            </p>
+            <br />
+            <br />
           </div>
         </Cell>
       </Grid>

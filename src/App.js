@@ -9,18 +9,16 @@ function App() {
     <div className="App">
       <div className="demo-big-content">
         <Layout>
-          <Header className = "header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to='/'>My Portfolio</Link>} waterfall>
+          <Header className = "header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to='/'>Harrison Packer</Link>} waterfall>
             <Navigation>
-              <Link to="/">Home</Link>
-              <Link to="/resume">Resume</Link>
-              <Link to="/aboutme">About Me</Link>
+              <Link to="/">About Me</Link>
+              <Link to="/resume">Projects</Link>
             </Navigation>
           </Header>
           <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to='/'>My Portfolio</Link>}>
             <Navigation>
-              <Link to="/">Home</Link>
-              <Link to="/resume">Resume</Link>
-              <Link to="/resume">About Me</Link>
+              <Link to="/">About Me</Link>
+              <Link to="/resume">Projects</Link>
             </Navigation>
           </Drawer>
           <Content>
